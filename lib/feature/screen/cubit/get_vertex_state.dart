@@ -10,3 +10,15 @@ final class GetVertexSuccess extends GetVertexState {
 
   GetVertexSuccess({required this.vertese});
 }
+
+final class ErrorGettingVertex extends GetVertexState {
+  final ErrorModel error;
+
+  ErrorGettingVertex({required this.error});
+}
+
+final class ExcptionVertex extends GetVertexState {
+  final ExcptionModel excption;
+
+  ExcptionVertex({required this.excption});
+}

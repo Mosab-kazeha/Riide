@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:riide/core/resources/color.dart';
 
+// ignore: must_be_immutable
 class MainContainer extends StatelessWidget {
   MainContainer(
       {Key? key,
